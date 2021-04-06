@@ -8,5 +8,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: read the readme file
       run: |
-        ls -R
+        ls -a
         head README.md > wf_file
+        ls -a
+        mkdir result
+        head wf_file > result/wf_file2
+        ls -R
