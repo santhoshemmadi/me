@@ -1,7 +1,5 @@
 name: Test
 on:
-  push:
-    branches: [master]
   workflow_dispatch:
 jobs:
   job-1:
@@ -22,5 +20,5 @@ jobs:
           echo $ANDROID_SDK_ROOT,
           echo $SELENIUM_JAR_PATH,
           echo $RUNNER_WORKSPACE,
-          whoami
+          whoami,
           df
