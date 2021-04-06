@@ -11,7 +11,7 @@ jobs:
 
       - name: run multiple commands
         run: |
-          ls-a,
+          ls -a,
           java -version,
           mvn --version,
           gradle --version,
