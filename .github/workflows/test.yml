@@ -7,4 +7,4 @@ jobs:
     steps:
     - name: read the readme file
       run: |
-        ls -a
+        ls -R
