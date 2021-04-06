@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: read the readme file
-      run: head README.md
+      run: |
+        ls -a
+        head ./README.md
