@@ -7,11 +7,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Initial check
-        run: lsb release -a
+        run: pwd
 
       - name: run multiple commands
         run: |
-          pwd,
           ls-a,
           java -version,
           mvn --version,
