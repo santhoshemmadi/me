@@ -1,7 +1,9 @@
 name: test-2
 on:
-  workflow_dispach:
+  workflow_dispatch:
 jobs:
   job-1:
-    -name: read the readme file
-    run: head README.md
+    runs-on: ubuntu-latest
+    steps:
+    - name: read the readme file
+      run: head README.md
