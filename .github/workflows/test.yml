@@ -8,4 +8,3 @@ jobs:
     - name: read the readme file
       run: |
         ls -a
-        head ./README.md
