@@ -9,4 +9,4 @@ jobs:
     - name: read the readme file
       run: |
         ls -R
-        head README.md
+        head README.md > wf_file
