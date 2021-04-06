@@ -1,0 +1,7 @@
+name: test-2
+on:
+  workflow_dispach:
+jobs:
+  job-1:
+    -name: read the readme file
+    run: head README.md
